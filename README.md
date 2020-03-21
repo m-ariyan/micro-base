@@ -15,6 +15,7 @@ This project is licensed under the MIT License to permit free use of it in any a
 
 ## Getting ready
 After installing Docker on your machine open terminal and run commands below :
+
     #Redis
     docker run -it  -p 6379:6379 -v "~/projects/redis/:/usr/local/etc/redis" --name redis --rm redis
     
